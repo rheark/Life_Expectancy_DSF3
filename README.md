@@ -10,3 +10,6 @@ https://www.kaggle.com/rtwillett/ukrainian-airspace
 
 student exam performance:
 https://www.kaggle.com/spscientist/students-performance-in-exams
+
+world happiness report:
+https://www.kaggle.com/unsdsn/world-happiness?select=2019.csv
