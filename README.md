@@ -7,3 +7,6 @@ https://www.kaggle.com/danielgrijalvas/movies
 
 Ukraine airspace:
 https://www.kaggle.com/rtwillett/ukrainian-airspace
+
+student exam performance:
+https://www.kaggle.com/spscientist/students-performance-in-exams
