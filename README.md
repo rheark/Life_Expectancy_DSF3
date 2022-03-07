@@ -4,3 +4,6 @@ https://www.kaggle.com/shubhambathwal/flight-price-prediction?select=Clean_Datas
 
 movies ratings:
 https://www.kaggle.com/danielgrijalvas/movies
+
+Ukraine airspace:
+https://www.kaggle.com/rtwillett/ukrainian-airspace
