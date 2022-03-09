@@ -17,3 +17,6 @@ https://www.kaggle.com/roshansharma/world-happiness-report
 
 heart disease:
 https://www.kaggle.com/meetnagadia/heart-disease
+
+airfare price prediction:
+https://www.kaggle.com/vinayshaw/airfare-price-prediction
