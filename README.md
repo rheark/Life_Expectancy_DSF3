@@ -32,3 +32,22 @@ https://www.kaggle.com/augustus0498/life-expectancy-who
 
 Time-series 
 https://machinelearningmastery.com/time-series-forecasting-supervised-learning/
+
+INSIGHTS:
+1. What countries can do to improve life expectancy?
+2. Comparing msia and sg with similar geographic location but why diff LE?
+3. 
+METHOD 1: GO GLOBAL!  --- FIND THE 5 MOST SIGNIFICANT FACTOR
+- No time series-normal regression/classfication -> use all the variables + correlation
+- each row(ignore time) treat as a record and do regression on it
+- outcome: equation to predict the life expectancy 
+- visualisation: time-series plotting
+
+METHOD 2:
+- use time-series
+1) (Find correlation for LE against the variables for over 15 years for each country.
+2) Filter 5 most significant factors with the highest correlation against LE) - METHOD 1
+
+
+3) Using the 5 factors, we find the trend over the years for the country we trying to predict (time series) and then we need to predct the 4th year life expectancy using the trend and correlation (Sliding window -> 3 years as input + 1 output)
+4) Predict the change in life expectancy - increase, decrease, remain the same
