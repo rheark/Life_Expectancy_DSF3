@@ -29,3 +29,6 @@ https://www.kaggle.com/augustus0498/life-expectancy-who
 2) Find correlation for LE against the variables for over 15 years for each country.
 3) Filter 5 most significant factors with the highest correlation
 4) We use time series to predict the most signi
+
+Time-series 
+https://machinelearningmastery.com/time-series-forecasting-supervised-learning/
