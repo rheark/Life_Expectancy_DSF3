@@ -23,3 +23,9 @@ https://www.kaggle.com/vinayshaw/airfare-price-prediction
 
 life expectancy
 https://www.kaggle.com/augustus0498/life-expectancy-who
+
+
+1) Compare Malaysia and Singapore:
+2) Find correlation for LE against the variables for over 15 years for each country.
+3) Filter 5 most significant factors with the highest correlation
+4) We use time series to predict the most signi
