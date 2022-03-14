@@ -20,3 +20,6 @@ https://www.kaggle.com/meetnagadia/heart-disease
 
 airfare price prediction:
 https://www.kaggle.com/vinayshaw/airfare-price-prediction
+
+life expectancy
+https://www.kaggle.com/augustus0498/life-expectancy-who
