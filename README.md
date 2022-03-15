@@ -51,3 +51,6 @@ METHOD 2:
 
 3) Using the 5 factors, we find the trend over the years for the country we trying to predict (time series) and then we need to predct the 4th year life expectancy using the trend and correlation (Sliding window -> 3 years as input + 1 output)
 4) Predict the change in life expectancy - increase, decrease, remain the same
+
+[led.csv](https://github.com/rheark/helloworld/files/8249369/led.csv)
+
