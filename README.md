@@ -31,17 +31,22 @@ METHOD 2:
 
 
 
-
+Deadline: FRIDAY 1/4/22
 UPDATED:
 1) alcohol:
-- Insight: alcohol boost life expectancy (+ve corr): alcohol in moderation may be beneficial
-- EDA -> check corr with le - if it is very low then we remove, else we use interpolation and justify saying that the corr is moderately strong should keep data, only  some data is missing 
-- scatterplot b/w alcohol and le
+- Insight: alcohol boost life expectancy (+ve corr): alcohol in moderation may be beneficial  -- EDA
+- for those >10 just not fill: justify inaccuracy, bias
+- else will fill with interpolation:  justify although not really accurate cos is at the end, but it is better than filling with artificial data(mode, median, mean) from other countries that doesn't follow a trend and have great variations
+- scatterplot b/w alcohol and le --EDA
 
 2) hepatitis:
-- 
+- for those >10 just not fill: justify inaccuracy, bias
+- else will fill with interpolation:  justify although not really accurate cos is at the end, but it is better than filling with artificial data(mode, median, mean) from other countries that doesn't follow a trend and have great variations
 - go website and saw that it has a lot of null values
 
+3) Anomaly detection using boxplot and scatterplot:
+hopefully there is very little outliers, then we can justify and say the outliers is not a big issue so we not dropping
+else, if there's a lot of outliers then can drop the whole outlier row then try again with ML
 
 MACHINE LEARNING
 - separate dataset with diff response var - 1 on life_expect and 1 on life_exp60 (using EDA justify that it is actually highly related)
