@@ -48,6 +48,10 @@ UPDATED:
 hopefully there is very little outliers, then we can justify and say the outliers is not a big issue so we not dropping
 else, if there's a lot of outliers then can drop the whole outlier row then try again with ML
 
+4)World heatmap for LE -visualisation 
+
+5)px.line for eda to compare general trends
+
 MACHINE LEARNING
 - separate dataset with diff response var - 1 on life_expect and 1 on life_exp60 (using EDA justify that it is actually highly related)
 - use random_state to set the train_test random split thing to fix the train and test datasets 
