@@ -34,10 +34,18 @@ METHOD 2:
 
 UPDATED:
 1) alcohol:
-Insight: alcohol boost life expectancy (+ve corr): alcohol in moderation may be beneficial
-EDA -> check corr with le - if it is very low then we remove, else we use interpolation and justify saying that the corr is moderately strong should keep data, only some data is missing 
-scatterplot b/w alcohol and le(check if it is actually linear if not remove LinearRegression)
+- Insight: alcohol boost life expectancy (+ve corr): alcohol in moderation may be beneficial
+- EDA -> check corr with le - if it is very low then we remove, else we use interpolation and justify saying that the corr is moderately strong should keep data, only  some data is missing 
+- scatterplot b/w alcohol and le
 
 2) hepatitis:
 - 
 - go website and saw that it has a lot of null values
+
+
+MACHINE LEARNING
+- separate dataset with diff response var - 1 on life_expect and 1 on life_exp60 (using EDA justify that it is actually highly related)
+- use random_state to set the train_test random split thing to fix the train and test datasets 
+- use the same train test combi for comparing the 2 models
+- linear regression don't need grid search cv
+
