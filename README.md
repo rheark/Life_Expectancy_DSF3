@@ -1,5 +1,9 @@
-# dsai project
+# World Life Expectancy
 
+## Contributors
+Bong Jia Hui - @bongg
+Celine Tan - @Cttan178
+Rhea Kenneth - @rheark
 1) Compare Malaysia and Singapore:
 2) Find correlation for LE against the variables for over 15 years for each country.
 3) Filter 5 most significant factors with the highest correlation
