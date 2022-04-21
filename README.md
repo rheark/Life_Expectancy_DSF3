@@ -1,10 +1,17 @@
 # World Life Expectancy
 
 ## Contributors
-Bong Jia Hui - @bjiah
-Celine Tan - @Cttan178
-Rhea Kenneth - @rheark
+- Bong Jia Hui - @bjiah
+- Celine Tan - @Cttan178
+- Rhea Kenneth - @rheark
 
+## About
+
+## Motivation & Problem Statement
+
+## Conclusion
+
+## References
 
 1) Compare Malaysia and Singapore:
 2) Find correlation for LE against the variables for over 15 years for each country.
