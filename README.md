@@ -16,6 +16,7 @@ This a mini project which we aim to gain more insight regarding the world life e
 - The dataset consists of life expectancy of 183 countries cover the years 2000-2016.
 - Some of the variables from UNESCO datasets have overlapped with the variable from GHO datasets and there are significant number of missing values, which is about 80% in those variables. Thus, we decided to remove these variables which are hospitals, une_poverty, une_edu_spend, une_literacy, une_school from UNESCO datasets.
 - Following are the data description for the variables we have included:
+
 | Data            | Data Description                                                                                        |
 | -------------   | --------------------------------------------------------------------------------------------------------|             
 | country         | Country name                                                                                            |
