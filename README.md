@@ -1,12 +1,13 @@
 # World Life Expectancy
 
-## Contributors
-- Bong Jia Hui - @bjiah
-- Celine Tan - @Cttan178
-- Rhea Kenneth - @rheark
 
 ## About
 This a mini project which we aim to gain more insight regarding the world life expectancy based on WHO national life expectancy dataset we obtained from kaggle (https://www.kaggle.com/datasets/mmattson/who-national-life-expectancy)
+
+## Contributors
+- Bong Jia Hui (@bjiah) - Machine Learning
+- Celine Tan (@Cttan178) - Data Preparation and Cleaning
+- Rhea Kenneth (@rheark) - Exploratory Data Analysis
 
 ## Motivation & Problem Statement
 
@@ -43,28 +44,9 @@ This a mini project which we aim to gain more insight regarding the world life e
 | une_pop         | Population (thousands)                                                                                  |
 | une_hiv         | Prevalence of HIV, total (% of population ages 15-49)                                                   | 
 
-                                             
-                                             
-Label	Count
-18.70 - 26.83	15
-26.83 - 34.96	38
-34.96 - 43.09	106
-43.09 - 51.22	141
-51.22 - 59.35	186
-59.35 - 67.48	199
-67.48 - 75.61	160
-75.61 - 83.74	246
-83.74 - 91.87	434
-91.87 - 100.00	1,554
-18.7
-100
-
-
-
-
-
-
-## Conclusion
+## Things Learnt
+- Filling in time series data using linear interpolation method instead of using median or mean of the data
+- 
 
 ## References
 https://www.kaggle.com/code/mmattson/exploring-cleaning-and-modeling
