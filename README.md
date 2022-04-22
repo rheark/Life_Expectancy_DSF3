@@ -6,12 +6,18 @@
 - Rhea Kenneth - @rheark
 
 ## About
+This a mini project which we aim to focus on the world life expectancy based on WHO national life expectancy dataset we obtained from kaggle (https://www.kaggle.com/datasets/mmattson/who-national-life-expectancy)
 
 ## Motivation & Problem Statement
+
+## Dataset Description
 
 ## Conclusion
 
 ## References
+https://www.kaggle.com/code/mmattson/exploring-cleaning-and-modeling
+
+
 
 1) Compare Malaysia and Singapore:
 2) Find correlation for LE against the variables for over 15 years for each country.
