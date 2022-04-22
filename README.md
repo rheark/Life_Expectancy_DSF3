@@ -9,9 +9,13 @@ This a mini project which we aim to gain more insight regarding the world life e
 - Celine Tan (@Cttan178) - Data Preparation and Cleaning
 - Rhea Kenneth (@rheark) - Exploratory Data Analysis
 
+## Github Folder
+
+
 ## Motivation & Problem Statement
 The motivation behind our problem statement is the stereotype that people living in less developed countries tend to have worse health conditions that lead to low life expectancy compared to those in developed countries. Thus, we would like to find out if it is a fact or if it is just a myth that people are exposed to on social media. For example, a stereotype is that most African kids are suffering from diseases due to severe malnutrition. By investigating the factors affecting life expectancy, we try to figure out what possible solutions can be implemented in order to narrow down the gap if there is one. <br />
-This lead to our problem statement **Does life expectancy inequality really exists and if yes, what are the indicators of such scenarios and are there possible solutions to narrow the inequality?**
+This lead to our problem statement: <br />
+**Does life expectancy inequality really exists and if yes, what are the indicators of such scenarios and are there possible solutions to narrow the inequality?**
 
 ## Dataset Description
 - This national life expectancy dataset is provided by World Health Organization (WHO) where this dataset was made using Global Health Observatory (GHO) and United Nations Educational Scientific and Culture Organization (UNESCO) information.
@@ -48,7 +52,7 @@ This lead to our problem statement **Does life expectancy inequality really exis
 ## Something Learnt in This Project
 - Filling in null values for time series datas using linear interpolation method instead of using median or mean of the data
 - Training model using Random Forest Regressor and Gradient Boosting Regressor 
-- Avoiding problem of overfitting by using Grid Search Cross Validation
+- Finding the best parameter for the estimators used and reducing the possibility of overfitting by using Grid Search Cross Validation
 - Collaborating on GitHub
 
 ## References
