@@ -10,6 +10,17 @@ This a mini project which we aim to gain more insight regarding the world life e
 - Rhea Kenneth (@rheark) - Exploratory Data Analysis
 
 ## Github Folder
+### World Life Expectancy Slides
+A brief summary of our project. It covers the details on how we derived our problem statement, the insights we obtained through EDA, how the machine learning model help us to answer our problem statment and conclusion we obtained from our work.
+
+### ipynb
+Detailed walkthrough of our work on national life expectancy dataset
+
+### Video Presentation 
+Presentation on the summary of our work.
+
+### who_life_exp.csv
+CSV file of WHO national life expectancy 
 
 
 ## Motivation & Problem Statement
@@ -49,7 +60,7 @@ This lead to our problem statement: <br />
 | une_pop         | Population (thousands)                                                                                  |
 | une_hiv         | Prevalence of HIV, total (% of population ages 15-49)                                                   | 
 
-## Something Learnt in This Project
+## Something New Learnt in This Project
 - Filling in null values for time series datas using linear interpolation method instead of using median or mean of the data
 - Training model using Random Forest Regressor and Gradient Boosting Regressor 
 - Finding the best parameter for the estimators used and reducing the possibility of overfitting by using Grid Search Cross Validation
@@ -57,5 +68,5 @@ This lead to our problem statement: <br />
 
 ## References
 https://www.kaggle.com/code/mmattson/exploring-cleaning-and-modeling
-
+https://towardsdatascience.com/how-to-interpolate-time-series-data-in-apache-spark-and-python-pandas-part-1-pandas-cff54d76a2ea
 
