@@ -10,8 +10,8 @@ This is a mini project with the aim to gain more insight regarding world life ex
 - Rhea Kenneth (@rheark) - Exploratory Data Analysis
 
 ## Github Folder
-### World Life Expectancy Slides
-Provides a brief summary of our project. It covers the details on how we derived our problem statement, the insights we obtained through EDA, how the machine learning model help us to answer our problem statment and the conclusion we obtained from our work.
+### SC1015_DSF3_World_Life_Expectancy.pdf
+Our presentation slide which provides a brief summary of our project. It covers the details on how we derived our problem statement, the insights we obtained through EDA, how the machine learning model help us to answer our problem statment and the conclusion we obtained from our work.
 
 ### DSF3_LifeExpectancy.ipynb
 Detailed walkthrough of analysing the national life expectancy dataset
@@ -21,9 +21,6 @@ Detailed walkthrough of analysing the national life expectancy dataset
 3. Machine learning (global)
 4. Exploratory data analysis (regional life expectancy)
 5. Machine learning (regional)
-
-### Video Presentation 
-Presentation of our work.
 
 ### who_life_exp.csv
 CSV file of WHO national life expectancy dataset.
