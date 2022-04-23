@@ -73,14 +73,16 @@ This leads to our problem statement: <br />
 - Collaborating on GitHub
 
 ## Conclusion
-Life expectancy inequality does indeed exist as there is great difference among the dispersion of life expectancy across different region. However, a good thing to notice is that generally every region's life expectancy increases over the years. 
+Life expectancy inequality does indeed exist as there is great difference among the dispersion of life expectancy across different region. However, a good thing to note is that every region's life expectancy generally increase over the years. 
 
-Based on the features importance we obtained from GBR model and also high correlation between life expectancy and mortality rates, we believe there is a strong inverse relationship between le and mortality rates. However, correlation does not indicate a causal relationship and logically, their high correlation is because they are caused by common variables like basic water and vaccination.
+Based on the features importance we obtained from GBR model and also high, negative correlation between life expectancy and mortality rates, we believe there is a strong inverse relationship between le and mortality rates. However, correlation does not indicate a causal relationship and from our research, their high correlation could be attributed to their dependency on common variables like basic water and vaccination.
 
 Hence, we can build our solutions around these 2 factors that could improve life expectancy and narrow the inequality. Two solutions would be improving water infrastructure so more people have access to safe water services and to also raise the public awareness on the importance of vaccination in children and infants across all regions.
 
+With the machine learning model that we trained, countries will be able to better predict the life expectancy of their people should there be a change in any of the predictors(such as accessibility to water etc.) Thus, they can be more precise in their policies should they wish to improve life expectancy.
+
 ## Reflection
-However, there are some limitations to our proposed solution. The top predictors we got from our machine learning models are based off the linear model used by WHO which is rigid and does not take into account unforeseeable circumstances. Mortality rates which is one of the important predictors of WHO’s model would be abnormally higher due to death caused by natural disasters resulting in inaccuracy.
+However, there are some limitations to our proposed solution. The top predictors we got from our machine learning models are based off the linear model used by WHO which is rigid and does not take into account unforeseeable circumstances. For instance, mortality rates which is one of the important predictors of WHO’s model would be abnormally higher due to death caused by natural disasters resulting in inaccuracy.
 
 Furthermore, our machine learning model based on regional data also showed different top predictors with varying importance which highlights the fact that it is not sufficient to use a single model to predict life expectancy globally. Hence, WHO should have timely understanding of each country’s situation and also use different models for different countries, taking into account their geographic factors. 
 
