@@ -13,7 +13,7 @@ This is a mini project with the aim to gain more insight regarding world life ex
 ### World Life Expectancy Slides
 Provides a brief summary of our project. It covers the details on how we derived our problem statement, the insights we obtained through EDA, how the machine learning model help us to answer our problem statment and the conclusion we obtained from our work.
 
-### ipynb
+### DSF3_LifeExpectancy.ipynb
 Detailed walkthrough of analysing the national life expectancy dataset
 - Contents of our notebook:
 1. Data cleaning
@@ -28,6 +28,9 @@ Presentation of our work.
 ### who_life_exp.csv
 CSV file of WHO national life expectancy dataset.
 
+### World Heat Map
+https://docs.google.com/spreadsheets/d/1kfqoC_7yLZKGK2kwxgCjtqN_ah8raVBW9GACsrJ2KKU/edit?usp=sharing
+Link to the world heat map that we have included in our presentation slide. The world heat map show the distribution of life expectancy for each country in year 2016. One can move through the world map to get details of the particular country and its respective life expectancy in 2016.
 
 ## Motivation & Problem Statement
 The motivation behind our problem statement is the stereotype that people living in less developed countries tend to have worse health conditions that lead to low life expectancy compared to those in developed countries. Thus, we would like to find out if it is a fact or if it is just a myth that people are exposed to on social media. For example, a stereotype is that most African kids are suffering from diseases due to severe malnutrition. By investigating the factors affecting life expectancy, we hope to figure out what possible solutions can be implemented in order to narrow down the inequality gap if there is one. <br />
