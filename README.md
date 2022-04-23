@@ -72,7 +72,22 @@ This leads to our problem statement: <br />
 - Finding the best parameter for the estimators used and reducing the possibility of overfitting by using Grid Search Cross Validation
 - Collaborating on GitHub
 
+## Conclusion
+Life expectancy inequality does indeed exist as there is great difference among the dispersion of life expectancy across different region. However, a good thing to notice is that generally every region's life expectancy increases over the years. 
+
+Based on the features importance we obtained from GBR model and also high correlation between life expectancy and mortality rates, we believe there is a strong inverse relationship between le and mortality rates. However, correlation does not indicate a causal relationship and logically, their high correlation is because they are caused by common variables like basic water and vaccination.
+
+Hence, we can build our solutions around these 2 factors that could improve life expectancy and narrow the inequality. Two solutions would be improving water infrastructure so more people have access to safe water services and to also raise the public awareness on the importance of vaccination in children and infants across all regions.
+
+## Reflection
+However, there are some limitations to our proposed solution. The top predictors we got from our machine learning models are based off the linear model used by WHO which is rigid and does not take into account unforeseeable circumstances. Mortality rates which is one of the important predictors of WHO’s model would be abnormally higher due to death caused by natural disasters resulting in inaccuracy.
+
+Furthermore, our machine learning model based on regional data also showed different top predictors with varying importance which highlights the fact that it is not sufficient to use a single model to predict life expectancy globally. Hence, WHO should have timely understanding of each country’s situation and also use different models for different countries, taking into account their geographic factors. 
+
+
 ## References
 https://www.kaggle.com/code/mmattson/exploring-cleaning-and-modeling
 https://towardsdatascience.com/how-to-interpolate-time-series-data-in-apache-spark-and-python-pandas-part-1-pandas-cff54d76a2ea
+https://time.com/5166514/moderate-drinking-live-longer-study/
+https://www.webmd.com/diet/news/20140328/underweight-even-deadlier-than-overweight-study-says#:~:text=People%20who%20are%20clinically%20underweight,more%20than%2050%20prior%20studies
 
