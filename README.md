@@ -15,7 +15,7 @@ Provides a brief summary of our project. It covers the details on how we derived
 
 ### ipynb
 Detailed walkthrough of analysing the national life expectancy dataset
-Contents of our notebook:
+- Contents of our notebook:
 1. Data cleaning
 2. Exploratory data analysis (global life expectancy)
 3. Machine learning (global)
