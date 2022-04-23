@@ -91,5 +91,5 @@ Furthermore, our machine learning model based on regional data also showed diffe
 https://www.kaggle.com/code/mmattson/exploring-cleaning-and-modeling <br />
 https://towardsdatascience.com/how-to-interpolate-time-series-data-in-apache-spark-and-python-pandas-part-1-pandas-cff54d76a2ea <br />
 https://time.com/5166514/moderate-drinking-live-longer-study/ <br />
-https://www.webmd.com/diet/news/20140328/underweight-even-deadlier-than-overweight-study says#:~:text=People%20who%20are%20clinically%20underweight,more%20than%2050%20prior%20studies
+https://www.webmd.com/diet/news/20140328/underweight-even-deadlier-than-overweight-studsays#:~:text=People%20who%20are%20clinically%20underweight,more%20than%2050%20prior%20studies
 
