@@ -25,6 +25,9 @@ Detailed walkthrough of analysing the national life expectancy dataset
 ### who_life_exp.csv
 CSV file of WHO national life expectancy dataset.
 
+### Regional Life Expectancy plotly graphs
+PNG files of regional life expectancy trend graphs. Interactive feature of the plotly graphs can be explored in the jupyter notebook under Regional EDA.
+
 ### World Heat Map
 https://docs.google.com/spreadsheets/d/1kfqoC_7yLZKGK2kwxgCjtqN_ah8raVBW9GACsrJ2KKU/edit?usp=sharing
 Link to the world heat map that we have included in our presentation slide. The world heat map show the distribution of life expectancy for each country in year 2016. One can move through the world map to get details of the particular country and its respective life expectancy in 2016.
@@ -70,6 +73,7 @@ This leads to our problem statement: <br />
 - Filling in null values for time series datas using linear interpolation method instead of using median or mean of the data
 - Machine learning model using Random Forest Regressor and Gradient Boosting Regressor 
 - Finding the best parameter for the estimators used and reducing the possibility of overfitting by using Grid Search Cross Validation
+- Using plotly for data visualisation
 - Collaborating on GitHub
 
 ## Conclusion
