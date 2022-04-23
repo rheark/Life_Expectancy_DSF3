@@ -2,7 +2,7 @@
 
 
 ## About
-This a mini project which we aim to gain more insight regarding the world life expectancy based on WHO national life expectancy dataset we obtained from kaggle (https://www.kaggle.com/datasets/mmattson/who-national-life-expectancy)
+This is a mini project with the aim to gain more insight regarding world life expectancy. It is based on WHO national life expectancy dataset we obtained from kaggle (https://www.kaggle.com/datasets/mmattson/who-national-life-expectancy)
 
 ## Contributors
 - Bong Jia Hui (@bjiah) - Machine Learning
@@ -11,27 +11,27 @@ This a mini project which we aim to gain more insight regarding the world life e
 
 ## Github Folder
 ### World Life Expectancy Slides
-A brief summary of our project. It covers the details on how we derived our problem statement, the insights we obtained through EDA, how the machine learning model help us to answer our problem statment and conclusion we obtained from our work.
+Provides a brief summary of our project. It covers the details on how we derived our problem statement, the insights we obtained through EDA, how the machine learning model help us to answer our problem statment and the conclusion we obtained from our work.
 
 ### ipynb
-Detailed walkthrough of our work on national life expectancy dataset
+Detailed walkthrough of analysing the national life expectancy dataset
 
 ### Video Presentation 
-Presentation on the summary of our work.
+Presentation of our work.
 
 ### who_life_exp.csv
-CSV file of WHO national life expectancy 
+CSV file of WHO national life expectancy dataset.
 
 
 ## Motivation & Problem Statement
-The motivation behind our problem statement is the stereotype that people living in less developed countries tend to have worse health conditions that lead to low life expectancy compared to those in developed countries. Thus, we would like to find out if it is a fact or if it is just a myth that people are exposed to on social media. For example, a stereotype is that most African kids are suffering from diseases due to severe malnutrition. By investigating the factors affecting life expectancy, we try to figure out what possible solutions can be implemented in order to narrow down the gap if there is one. <br />
-This lead to our problem statement: <br />
-**Does life expectancy inequality really exists and if yes, what are the indicators of such scenarios and are there possible solutions to narrow the inequality?**
+The motivation behind our problem statement is the stereotype that people living in less developed countries tend to have worse health conditions that lead to low life expectancy compared to those in developed countries. Thus, we would like to find out if it is a fact or if it is just a myth that people are exposed to on social media. For example, a stereotype is that most African kids are suffering from diseases due to severe malnutrition. By investigating the factors affecting life expectancy, we hope to figure out what possible solutions can be implemented in order to narrow down the inequality gap if there is one. <br />
+This leads to our problem statement: <br />
+**Does life expectancy inequality really exist and if yes, what are the indicators of such scenarios and are there possible solutions to narrow the inequality?**
 
 ## Dataset Description
-- This national life expectancy dataset is provided by World Health Organization (WHO) where this dataset was made using Global Health Observatory (GHO) and United Nations Educational Scientific and Culture Organization (UNESCO) information.
-- The dataset consists of life expectancy of 183 countries cover the years 2000-2016.
-- Some of the variables from UNESCO datasets have overlapped with the variable from GHO datasets and there are significant number of missing values, which is about 70% in those variables. Thus, we decided to remove these variables which are hospitals, une_poverty, une_edu_spend, une_literacy, une_school from UNESCO datasets.
+- This national life expectancy dataset is provided by World Health Organization (WHO) which referenced information from Global Health Observatory (GHO) and United Nations Educational Scientific and Culture Organization (UNESCO).
+- The dataset consists of life expectancy of 183 countries covering the years 2000-2016.
+- Some of the variables from UNESCO datasets overlapped with the variables from GHO datasets and there are also significant number of missing values, which is around 70% in those variables. Thus, we decided to remove the variables which are hospitals, une_poverty, une_edu_spend, une_literacy, une_school from UNESCO datasets.
 - Following are the data description for the variables we have included:
 
 | Data            | Data Description                                                                                        |
@@ -62,7 +62,7 @@ This lead to our problem statement: <br />
 
 ## Something New Learnt in This Project
 - Filling in null values for time series datas using linear interpolation method instead of using median or mean of the data
-- Training model using Random Forest Regressor and Gradient Boosting Regressor 
+- Machine learning model using Random Forest Regressor and Gradient Boosting Regressor 
 - Finding the best parameter for the estimators used and reducing the possibility of overfitting by using Grid Search Cross Validation
 - Collaborating on GitHub
 
